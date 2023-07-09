@@ -169,6 +169,10 @@
     <Compile Include="Ship_Game\AI\ThreatClusterUpdate.cs" />
     <Compile Include="Ship_Game\AI\ThreatMatrix_ClustersGenerator.cs" />
     <Compile Include="Ship_Game\AI\ThreatMatrix_Update.cs" />
+    <Compile Include="Ship_Game\Audio\AudioConfig.cs" />
+    <Compile Include="Ship_Game\Audio\AudioEmitter.cs" />
+    <Compile Include="Ship_Game\Audio\AudioPlaybackEngine.cs" />
+    <Compile Include="Ship_Game\Audio\AutoDisposeFileReader.cs" />
     <Compile Include="Ship_Game\Commands\Goals\BuildableShip.cs" />
     <Compile Include="Ship_Game\Commands\Goals\RemnantDefendPortal.cs" />
     <Compile Include="Ship_Game\Commands\Goals\InhibitorInvestigate.cs" />
@@ -310,7 +314,7 @@
     <Compile Include="Ship_Game\AI\ShipAI\ShipAI.OrderAction.cs" />
     <Compile Include="Ship_Game\Audio\AudioDevices.cs" />
     <Compile Include="Ship_Game\Audio\AudioHandle.cs" />
-    <Compile Include="Ship_Game\Audio\AudioInstance.cs" />
+    <Compile Include="Ship_Game\Audio\IAudioInstance.cs" />
     <Compile Include="Ship_Game\BuildingCategory.cs" />
     <Compile Include="Ship_Game\Commands\Goals\AssaultBombers.cs" />
     <Compile Include="Ship_Game\Commands\Goals\DefendSystem.cs" />
