@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Xml.Serialization;
 using SDGraphics;
+using SDUtils;
 using Ship_Game.Audio;
 using Ship_Game.ExtensionMethods;
 using Vector2 = SDGraphics.Vector2;
@@ -688,8 +689,7 @@ namespace Ship_Game.Gameplay
 
         protected virtual void Dispose(bool disposing)
         {
-            ToggleCue?.Destroy();
-            ToggleCue = null;
+            Mem.Dispose(ref ToggleCue);
             Owner = null;
             Module = null;
             FireTarget = null;
