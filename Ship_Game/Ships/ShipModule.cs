@@ -1012,7 +1012,7 @@ namespace Ship_Game.Ships
             if (!cleanupOnly && source != null)
             {
                 if (Parent.Active && Parent.IsVisibleToPlayer)
-                    GameAudio.PlaySfxAsync("sd_explosion_module_small", Parent.SoundEmitter);
+                    GameAudio.PlaySfxAsync("sd_explosion_ship_det_small", Parent.SoundEmitter);
 
                 if (Explodes)
                 {
