@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Ship_Game.AI;
 using Ship_Game.Commands.Goals;
 using Ship_Game.Gameplay;
@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using SDGraphics;
 using SDUtils;
-using Ship_Game.Data.Serialization;
+using Ship_Game.Data.Serialization;sdfgsd 
 
 namespace Ship_Game
 {
